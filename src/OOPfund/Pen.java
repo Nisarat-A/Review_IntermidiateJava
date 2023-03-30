@@ -5,7 +5,7 @@ public class Pen {
         String type = "ink" ;
         String color = "rainbow" ;
         int point = 10;
-        static boolean open = false ;
-    public static  void opened() {open = true;}
-    public static  void closed() {open = false;}
+        static boolean clicked = false ;
+    public static  void click() {clicked = true;}
+    public static  void unclick() {clicked = false;}
 }
