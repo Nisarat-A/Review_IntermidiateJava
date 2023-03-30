@@ -9,5 +9,19 @@ public class Main {
         System.out.println(p.clicked);
        p.click();
         System.out.println(p.clicked);
+
+        Headphone h = new Headphone();
+        System.out.println(h.color);
+        System.out.println(h.type);
+        System.out.println(h.controls);
+        h.powerOn();
+        System.out.println(h.power);
+        h.powerOff();
+        System.out.println(h.power);
+        h.VolumeUp();
+        System.out.println(h.volume);
+        h.VolumeDown();
+        System.out.println(h.volume);
+
     }
 }
