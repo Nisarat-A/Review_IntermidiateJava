@@ -1,4 +1,4 @@
-package OOP;
+package OOPfund;
 
 public class Pen {
 
@@ -7,4 +7,5 @@ public class Pen {
         int point = 10;
         static boolean open = false ;
     public static  void opened() {open = true;}
+    public static  void closed() {open = false;}
 }
