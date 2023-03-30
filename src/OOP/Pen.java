@@ -1,7 +1,10 @@
 package OOP;
 
 public class Pen {
-    public static void main(String[] args) {
-        System.out.println();
-    }
+
+        String type = "ink" ;
+        String color = "rainbow" ;
+        int point = 10;
+        static boolean open = false ;
+    public static  void opened() {open = true;}
 }
