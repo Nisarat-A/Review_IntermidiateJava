@@ -1,5 +1,5 @@
 package inheritanceFund;
-public class Mouse1 {
+public class Mouse1 extends Mouse {
     String texture = "matt" ;
     /*public  static void  lestClick() { System.out.println("click!");}
     public static void rightClick() {System.out.println("click!");}*/
